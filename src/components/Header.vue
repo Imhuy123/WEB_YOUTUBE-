@@ -59,30 +59,7 @@
     </div>
 
     <!-- Thanh Nav (Side Drawer) -->
-    <div v-if="isNavOpen" class="fixed inset-y-0 left-0 w-64 bg-gray-800 text-white p-4 transition-transform transform">
-      <div class="flex flex-col space-y-4">
-        <div class="flex items-center space-x-2">
-          <i class="bx bx-home text-xl"></i>
-          <span>Trang Chủ</span>
-        </div>
-        <div class="flex items-center space-x-2">
-          <i class="bx bx-play-circle text-xl"></i>
-          <span>Kênh Đăng Ký</span>
-        </div>
-        <div class="flex items-center space-x-2">
-          <i class="bx bx-movie-play text-xl"></i>
-          <span>Phim Bộ</span>
-        </div>
-        <div class="flex items-center space-x-2">
-          <i class="bx bx-user text-xl"></i>
-          <span>Trang Cá Nhân</span>
-        </div>
-        <div class="flex items-center space-x-2">
-          <i class="bx bx-cog text-xl"></i>
-          <span>Cài Đặt</span>
-        </div>
-      </div>
-    </div>
+    
   </div>
 </template>
 
@@ -113,7 +90,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped>s
 /* Dark mode styles */
 .dark {
   background-color: #1a202c; /* Dark background */
